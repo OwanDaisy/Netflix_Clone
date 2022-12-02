@@ -31,12 +31,20 @@
     margin: 10px;
     float: right;
 }
+.break{
+    height: 5%;
+    width: 100vw;
+    background-color: grey;
+    color: grey;
+}
 .navstart{
     text-decoration-line: none ;
     color: white;
     background-color: red;
-    padding: 4px 20px 18px 20px;
-    font-size: 27px;
+    padding: auto;
+    width: 20%;
+    text-decoration-line: none;
+    font-size: 30px;
     font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;   
     text-align: center;
 }
@@ -82,4 +90,60 @@ p{
 .email_started{
     display: flex;
     flex-direction: row;
+}
+.main2{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    grid-template-rows:repeat(2,1fr);
+    justify-content:center ;
+    align-items: center;
+}
+.main2left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main2right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main4{
+    padding:5% 7% 5% 7%;
+    background-color: black;
+}
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.FAQ a{
+    background-color: rgb(61, 61, 66);
+    color: white;
+    padding: 1.5% 2% 1.5% 2%;
+    width: 58%;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5%;
+    text-decoration-line: none;
+    font-size: 27px;
+}
+.subFAQ{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main5{
+    background-color: black;
+}
+#main5text{
+    color: white;
+    font-size: 52px;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding: 1.5%;
 }
