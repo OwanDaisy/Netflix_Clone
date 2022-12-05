@@ -38,9 +38,10 @@ body{
 .netflix{
     float: left;
     width: 10%;
-    height: auto;
-    padding-left: 50px;
-    padding-top: 6px;
+    height: 90%;
+    position: relative;
+    left:20px;
+    padding-left: 8px;
 }
 .break{
     height: 5%;
@@ -87,6 +88,7 @@ body{
     background-image: url('IMG-20221125-WA0098.jpg');
     background-position: center;
     background-size: cover;
+    justify-content: center;
 }
 .main1{
     display: flex;
@@ -95,6 +97,7 @@ body{
     justify-content: center;
     text-align: center;
     padding-top: 100px;
+    
 
 }
 p{
@@ -220,6 +223,13 @@ p{
     padding: 16px 2px 0px 2px;
     color: grey;
     font-size: 15px;
+}
+.main8 ul a{
+    text-decoration-line: none;
+}
+.main8 ul a:hover{
+    text-decoration-line: underline;
+    color: grey;
 }
 .footer{
     display: flex;
